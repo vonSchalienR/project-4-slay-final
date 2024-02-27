@@ -3,13 +3,16 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lucida Sans Unicode', sans-serif;
+    scroll-behavior: smooth;
 }
 nav{
     position: fixed;
+    background: none;
     background-color: rgb(192, 189, 189);
-     width: 100%;
-     padding: 10px 0;
-     z-index: 12;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+ 
 
 }
 nav .menu{
@@ -50,6 +53,14 @@ nav .menu{
     background: white;
     color: black;
 
+}
+.menu ul li a.piilomuu{
+    background: black;
+    color: white;
+}
+.menu ul li a.piilomuu:hover{
+    background: white;
+    color: black;
 }
 .img{
     background: url(FROOOTERS.LOGO.FINAL.png) no-repeat;
@@ -104,9 +115,178 @@ section{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
     color: black;
-    font-size: 70px;
+    font-size: 20px;
+
+
+}
+#TIETOA{
+    background: none;
+    background-color: rgb(215, 210, 210);
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
     
 
 }
+#LISENSSIT{
+    background: none;
+    background-color: rgb(171, 169, 169);
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+}
+#KUMPPANIT{
+    background: none;
+    background-color: rgb(215, 210, 210);
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+}
+#YHTEYSTIEDOT{
+    background: none;
+    background-color: rgb(171, 169, 169);
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+}
+#LISÄÄ{
+    background: none;
+    background-color: rgb(215, 210, 210);
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+}
+#PALAUTE{
+    background: none;
+    background-color: rgb(171, 169, 169);
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+    
+}
+.image{
+    height: 100%;
+    position:absolute;
+    top: 4%;
+    left:2%;
+    scroll-behavior: smooth;
+    
+}
+ .menu ul li a.piilomuu{
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    border: black;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: black;
+    transition: all 0.3
+}
+    
+.button a{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    border-radius: 50px;
+    font-size: 18px;
+    padding: 7px 12px;
+    background: black;
+    box-shadow:rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+}
+form {
+    max-width: 100%;
+    margin: auto;
+    
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+.submit {
+    background-color:#000;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.box{
+    margin-bottom: 0px;
+    padding: 25px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color:#ffffff96 ;
+    width: 70%;
+    margin: 0 auto;
+    display: fit-content;
+    margin-top: 1.5%;
+    text-align: justify;
+
+    
+
+}
+h3{
+    text-align: center;
+    margin-bottom: 2%;
+    
+    
+}
+.label{
+    position: left;
+}
+.submit{
+    position: center;
+}
+.scoot{
+    align-items: center;
+    position: center;
+}
+a.link{
+    color: rgb(0, 0, 0);
+}
+a:visited {
+  color:rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  background-color: transparent;
+  
+}
+link{
+    color:white;
+}
+
+        .social-icons {
+            display: flex;
+            gap: 20px; 
+        }
+
+        .social-icons a {
+            text-decoration: none;
+        }
+
+        .social-icons img {
+            max-width: 35%;
+            height: auto; 
+            display: block; 
+            margin: 0 auto; 
+        }
+        .alt-text{
+            text-align: center;
+        }
