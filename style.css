@@ -5,6 +5,12 @@
     font-family: 'Lucida Sans Unicode', sans-serif;
     scroll-behavior: smooth;
 }
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+    
+}
 nav{
     position: fixed;
     background: none;
@@ -13,6 +19,11 @@ nav{
     padding: 10px 0;
     z-index: 12;
  
+
+}
+.nav.sticky{
+
+    color: lightgrey;
 
 }
 nav .menu{
@@ -129,6 +140,8 @@ section{
     width: 100%;
     padding: 10px 0;
     z-index: 12;
+    min-height: 500px;
+
     
 
 }
@@ -241,6 +254,18 @@ input, textarea {
     
 
 }
+.kumppani-box{
+    margin-bottom: 0px;
+    padding: 25px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color:#ffffff96 ;
+    width: 70%;
+    margin: 0 auto;
+    display: fit-content;
+    margin-top: 1.5%;
+    text-align: center;
+}
 h3{
     text-align: center;
     margin-bottom: 2%;
@@ -296,4 +321,12 @@ link{
             height: 20%;
             text-align: center;
 
+        }
+        @media (max-width:969px) {
+            .max-width{
+               
+                padding: 0 50px;
+               
+            }
+            
         }
