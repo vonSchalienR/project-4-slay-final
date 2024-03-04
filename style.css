@@ -1,45 +1,52 @@
 *{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lucida Sans Unicode', sans-serif;
     scroll-behavior:smooth;
     width:fit-content;
     position: flex;
+
     
 }
 .banner{
     width: 100%;
+    background-color:rgb(192, 189, 189);
+    z-index: 15;
+
+   
+
 
 }
 .wrapper{
     width: 100%;
-}
-
-
-.nav.sticky{
-
-    color: lightgrey;
 
 }
+
 nav .menu{
     max-width: 100%;
     background:none;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    position: relative;
 }
+
 
 
 .menu ul{
     display: inline-flex;
+    position:absolute;
+    left: 25%;
+    top: 45%;
 
 }
 .menu ul li{
     list-style: none;
     margin-left: 20px;
     position: right;
+    
+    
 
 }
 .menu ul li a {
@@ -51,19 +58,26 @@ nav .menu{
     border-radius: 5px;
     transition: all 0.3s ease;
     width: 100%;
+    border:1.5px solid black;
+    padding:3px;
 }
 .menu ul li a:hover {
     background: white;
     color: black;
+    border:1.5px solid black;
+
 
 }
 .menu ul li a.piilomuu{
     background: black;
     color: white;
+    padding: 3px;
 }
 .menu ul li a.piilomuu:hover{
     background: white;
     color: black;
+    border:1.5px solid black;
+    
 }
 .menu-btns{
     color: white;
@@ -241,14 +255,22 @@ input, textarea {
     border-radius: 4px;
     cursor: pointer;
 }
+.tietoa-box{
+    left: 50%;
+    width: 80%;
+    padding: 5%;
+    text-align: center;
+    font-size: larger;
+
+}
 
 .box{
     margin-bottom: 0px;
     padding: 20px;
-    border: 1px solid #000000;
+    border: 3px solid #000000;
     border-radius: 10px;
     background-color:#ffffff96 ;
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     display: fit-content;
     margin-top: 1.5%;
@@ -258,33 +280,36 @@ input, textarea {
     
 
 }
+.BOX{
+    position: center;
+    width: 100%;
+    
+  
+}
+.lisenssi-box1.p{
+    text-align: center;
+    
+}
 .ytx2{
     margin-bottom: 0px;
-    padding: 20px;
+    padding: 5px;
     width: 50%;
     margin: 0 auto;
-    display: fixed;
+    display: fit-content;
     margin-top: 1.5%;
     text-align: center;
-    justify-content: space-between;
+    position: center;
+  
+
 }
-.yt-box2{
-    margin-bottom: 0px;
-    padding: 20px;
-    width: 50%;
-    margin: 0 auto;
-    display: fixed;
-    margin-top: 1.5%;
-    text-align: center;
-    justify-content: space-between;
-}
+
 .yt-box{
     margin-bottom: 0px;
-    padding: 20px;
-    border: 1px solid #000000;
+    padding: 30px;
+    border: 3px solid #000000;
     border-radius: 10px;
     background-color:#ffffff96 ;
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     display:justify;
     margin-top: 1.5%;
@@ -292,11 +317,11 @@ input, textarea {
 }
 .yt-box1{
     margin-bottom: 0px;
-    padding: 20px;
-    border: 1px solid #000000;
+    padding: 30px;
+    border: 3px solid #000000;
     border-radius: 10px;
     background-color:#ffffff96 ;
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     display: justify;
     margin-top: 1.5%;
@@ -305,11 +330,11 @@ input, textarea {
 }
 .yt-box2{
     margin-bottom: 0px;
-    padding: 20px;
-    border: 1px solid #000000;
+    padding: 30px;
+    border: 3px solid #000000;
     border-radius: 10px;
     background-color:#ffffff96 ;
-    width: 75%;
+    width: 100%;
     margin: 0 auto;
     display: justify;
     margin-top: 1.5%;
@@ -317,11 +342,11 @@ input, textarea {
 }
 .yt-box3{
     margin-bottom: 0px;
-    padding: 20px;
-    border: 1px solid #000000;
+    padding: 30px;
+    border: 3px solid #000000;
     border-radius: 10px;
     background-color:#ffffff96 ;
-    width: 75%;
+    width: 100%;
     margin: 0 auto;
     display: justify;
     margin-top: 1.5%;
@@ -330,26 +355,37 @@ input, textarea {
 .palaute-box{
     margin-bottom: 10px;
     padding: 5px;
-    border: 1px solid #000000;
+    border: 3px solid #000000;
     border-radius: 10px;
     background-color:#ffffff96 ;
     width: 70%;
     margin: 0 auto;
-    display: fit-content;
+    display:block;
     margin-top: 1.5%;
-    text-align: justify;
+    text-align: left;
     
 
     
 
 }
+.BOX2{
+    text-align: center;
+    position: center;
+        margin-bottom: 0px;
+        padding: 20px;
+        text-align: center;
+        width: 75%;
+        margin: 0 auto;
+        display: fit-content;
+        margin-top: 1.5%;
+}
 .lisenssi-box1{
     margin-bottom: 0px;
-    padding: 0px;
-    border: 1px solid #000000;
+    padding: 20px;
+    border: 3px solid #000000;
     border-radius: 10px;
     background-color:#ffffff96 ;
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     display:justify;
     margin-top: 1.5%;
@@ -357,11 +393,11 @@ input, textarea {
 }
 .lisenssi-box2{
     margin-bottom: 50px;
-    padding: 0px;
-    border: 1px solid #000000;
+    padding: 20px;
+    border: 3px solid #000000;
     border-radius: 10px;
     background-color:#ffffff96 ;
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     display:justify;
     margin-top: 1.5%;
@@ -369,27 +405,34 @@ input, textarea {
 }
 .lisenssi-box3{
     margin-bottom: 0px;
-    padding: 0px;
-    border: 1px solid #000000;
+    padding: 20px;
+    border: 3px solid #000000;
     border-radius: 10px;
     background-color:#ffffff96 ;
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     display:justify;
     margin-top: 1.5%;
     text-align: center;
 }
+.kumppani2{
+    font-size: larger;
+    text-align: center;
+    width: 80%;
+    padding-left: 0;
+
+}
 .kumppani-box {
     margin-bottom: 0px;
     padding: 20px;
-    border: 1px solid #000000;
+    border: 3px solid #000000;
     border-radius: 10px;
     background-color:#ffffff96 ;
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     display: fit-content;
     margin-top: 1.5%;
-    text-align: center;
+
     
 }
 h3{
@@ -406,6 +449,7 @@ h2{
 }
 .label{
     position: left;
+    
 }
 .submit{
     position: center;
@@ -428,6 +472,10 @@ a:hover {
   color: black;
   background-color: transparent;
   
+}
+.section{
+    height:fixed;
+
 }
 link{
     color:white;
